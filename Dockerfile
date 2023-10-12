@@ -1,4 +1,4 @@
-FROM openjdk:17.0.1-jdk-slim
+FROM openjdk:17.0.2-jdk-slim
 
 CMD ["./gradlew", "clean", "bootJar"]
 COPY build/libs/*.jar app.jar
