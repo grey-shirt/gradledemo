@@ -9,6 +9,7 @@ This is an application template that has thymeleaf and tailwind preconfigured in
 * To start the Spring application run the main method in `./gradlew bootRun`
 * To generate the tailwind files execute the following in a terminal window at the root of the project `npm run build`
 * For livereload run `npm run watch`
+* The application should now be running on https://localhost:3000
 
 # Getting Started
 
