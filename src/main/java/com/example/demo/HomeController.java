@@ -1,4 +1,4 @@
-package com.example.gradledemo;
+package com.example.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
