@@ -1,5 +1,5 @@
 {
-  "name": "gradledemo",
+  "name": "demo",
   "packageManager": "npm@9.6.7",
   "devDependencies" : {
     "@babel/cli" : "^7.23.0",
