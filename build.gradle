@@ -26,9 +26,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
-}
+bootJar.dependsOn publishFrontend
 
 frontend {
     nodeVersion = '18.17.1'
@@ -45,4 +43,8 @@ jar {
         exclude('**/*.js')
         exclude('**/*.svg')
     }
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
 }
